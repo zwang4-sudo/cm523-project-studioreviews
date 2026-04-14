@@ -1,26 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- PUT A TITLE IN HERE -->
-    <title>This is the demo</title>
-    <!-- PUT A DESCRIPTION IN HERE -->
-    <meta name="description" content="describe content of the page here...." />
-    <!-- LINK TO NORMALIZE (FOR CONSISTENCY) -->
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <!-- LINK TO ANY FRAMEWORK STYLES HERE-->
-    
-    <!-- LINK TO YOUR STYLES -->
-    <link rel="stylesheet" href="styles/styles.css" />
-    <!-- LINK TO EXTERNAL JS LIBRARIES HERE -->
-    <!-- LINK TO YOUR JS HERE. NOTE THE DEFER ATTRIBUTE. -->
-    <script src="scripts/scripts.js" defer></script>
-  </head>
-  <body>
-    <!-- YOUR HTML GOES HERE -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Movement Edit | Dance Studio Reviews</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/styles.css"></head>
+<body>
 
-    <!-- YOUR EXTERNAL PLUG-IN MAY ASK YOU TO PUT A SCRIPT TAG HERE. -->
-  </body>
+    <nav class="navbar">
+        <div class="nav-logo">The Movement Edit</div>
+        <div class="nav-links">
+            <a href="#studios" class="nav-item">Explore Studios</a>
+            <a href="#" class="btn-secondary">Submit a Review</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-inner">
+            <span class="subheading">Curated Selection</span>
+            <h1>Find Your Rhythm</h1>
+            <p>An artistic review of the top 6 dance spaces for grace, grit, and growth.</p>
+        </div>
+    </header>
+
+    <section id="studios" class="section">
+        <div class="studio-grid">
+            <div class="studio-card">
+                <div class="card-tag">Classical</div>
+                <h3>The Barre Collective</h3>
+                <p class="body-text">A serene environment focused on technical precision. The instructors are world-class, but the real star is the natural light in Studio A.</p>
+                <a href="#" class="btn-primary">Visit Studio</a>
+            </div>
+
+            <div class="studio-card">
+                <div class="card-tag">Contemporary</div>
+                <h3>Flow & Form</h3>
+                <p class="body-text">Perfect for those who want to experiment with movement. The community here is incredibly supportive of beginners and pros alike.</p>
+                <a href="#" class="btn-primary">Visit Studio</a>
+            </div>
+
+            <div class="studio-card">
+                <div class="card-tag">Urban</div>
+                <h3>Urban Groove Lab</h3>
+                <p class="body-text">High energy and high intensity. If you’re looking for sharp choreography and the latest hip-hop hits, this is the place to be.</p>
+                <a href="#" class="btn-primary">Visit Studio</a>
+            </div>
+
+            <div class="studio-card">
+                <div class="card-tag">Jazz</div>
+                <h3>Blue Note Dance</h3>
+                <p class="body-text">A vintage soul with modern facilities. Their Broadway-style jazz classes are the most sought-after in the city.</p>
+                <a href="#" class="btn-primary">Visit Studio</a>
+            </div>
+
+            <div class="studio-card">
+                <div class="card-tag">Ballroom</div>
+                <h3>The Grand Waltz</h3>
+                <p class="body-text">Elegant, refined, and strictly professional. This studio feels like stepping back in time to an era of pure sophistication.</p>
+                <a href="#" class="btn-primary">Visit Studio</a>
+            </div>
+
+            <div class="studio-card">
+                <div class="card-tag">Wellness</div>
+                <h3>Luminous Movement</h3>
+                <p class="body-text">Where dance meets yoga. A calming experience designed for those who use dance as a form of meditation and mental clarity.</p>
+                <a href="#" class="btn-primary">Visit Studio</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 The Movement Edit &bull; Artistic Reviews for the Modern Dancer</p>
+    </footer>
+
+</body>
 </html>
